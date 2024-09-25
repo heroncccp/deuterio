@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Energia de Fusão Nuclear do Hidrogênio Pesado</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Energia de Fusão Nuclear do Hidrogênio Pesado</h1>
+        <nav>
+            <ul>
+                <li><a href="#o-que-e">O que é?</a></li>
+                <li><a href="#vantagens">Vantagens</a></li>
+                <li><a href="#comparacao">Comparação</a></li>
+                <li><a href="#interatividade">Experimente!</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="o-que-e">
+            <h2>O que é Fusão Nuclear?</h2>
+            <p>A fusão nuclear é um processo onde núcleos atômicos leves se combinam para formar um núcleo mais pesado, liberando uma grande quantidade de energia. Ela ocorre no Sol, que funde hidrogênio em seu núcleo, e em armamentos nucleares atuais. É o caso da Tsar Bomba, o explosivo mais potente a detonar da história.</p>
+        </section>
+
+        <section id="vantagens">
+            <h2>Vantagens da Fusão do Hidrogênio Pesado</h2>
+            <ul>
+                <li>Energia abundante e limpa.</li>
+                <li>Menor produção de resíduos radioativos.</li>
+                <li>Combustível disponível em grande quantidade.</li>
+            </ul>
+        </section>
+
+        <section id="comparacao">
+            <h2>Comparação com Explosões Nucleares</h2>
+            <p>Veja como a energia liberada na fusão nuclear se compara a explosões nucleares conhecidas:</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Teste</th>
+                        <th>Energia Liberada (TNT)</th>
+                        <th>Energia (Joules)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Tsar Bomba</td>
+                        <td>50 Megatons</td>
+                        <td>2,1 × 10<sup>15</sup> J</td>
+                    </tr>
+                    <tr>
+                        <td>Teste Trinity</td>
+                        <td>20 Kilotons</td>
+                        <td>8,4 × 10<sup>13</sup> J</td>
+                    </tr>
+                    <tr>
+                        <td>Fusão Nuclear (1 núcleo de Deutério)</td>
+                        <td>—</td>
+                        <td>3,2 × 10<sup>-19</sup> J</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p><strong>Nota:</strong> Para igualar a energia da Tsar Bomba, seriam necessários aproximadamente <strong>6,56 × 10<sup>34</sup></strong> núcleos de deutério.</p>
+        </section>
+        
+        <section id="interatividade">
+            <h2>Experimente!</h2>
+            <p>Calcule a energia liberada na fusão de hidrogênio pesado:</p>
+            <input type="number" id="nucleo-input" placeholder="Número de núcleos de Deutério" min="1">
+            <button onclick="calcularEnergia()">Calcular Energia</button>
+            <p id="resultado"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 - Energia de Fusão Nuclear - adri @heronmaloqueiro @razoratomico</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
